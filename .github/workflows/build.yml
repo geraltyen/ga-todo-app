@@ -13,15 +13,15 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      -name: Checkout
+    - name: Checkout
       uses: actions/checkout@v3
-      -name: Setup Node
+    - name: Setup Node
       uses: actions/setup-node@v3
       with:
       node-version: "16"
-      -name: Install Dependencies
+    - name: Install Dependencies
       run: npm ci
-      -name: Build Project
+    - name: Build Project
       run: npm run build  
      
   deploy:
@@ -31,6 +31,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      -name: Deploy to Github pages
+    - name: Deploy to Github pages
       id: deployment
       uses: action/deploy-pages@v1
