@@ -2,7 +2,12 @@ name: Github Action No. 2
 
 on:
   push:
-    bramches: ["main"]
+    branches: ["main"]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   build:
