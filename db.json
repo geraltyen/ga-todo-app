@@ -1,3 +1,64 @@
 {
-  "todos": []
+  "todos": [
+    {
+      "value": "a",
+      "isCompleted": false,
+      "id": 1
+    },
+    {
+      "value": "b",
+      "isCompleted": false,
+      "id": 2
+    },
+    {
+      "value": "c",
+      "isCompleted": false,
+      "id": 3
+    },
+    {
+      "value": "d",
+      "isCompleted": false,
+      "id": 4
+    },
+    {
+      "value": "Why do i love Wednesday",
+      "isCompleted": false,
+      "id": 5
+    },
+    {
+      "value": "Because she is Savage",
+      "isCompleted": false,
+      "id": 6
+    },
+    {
+      "value": "She has a killer smile",
+      "isCompleted": false,
+      "id": 7
+    },
+    {
+      "value": "I am in love",
+      "isCompleted": false,
+      "id": 8
+    },
+    {
+      "value": "Am i in my conscious mind",
+      "isCompleted": false,
+      "id": 9
+    },
+    {
+      "value": "Yes indeed because i am able to follow ritesh sir in time so",
+      "isCompleted": false,
+      "id": 10
+    },
+    {
+      "value": "Oh my god wenesday my wednesday",
+      "isCompleted": false,
+      "id": 11
+    },
+    {
+      "value": "your obsession with her will kill you one day",
+      "isCompleted": false,
+      "id": 12
+    }
+  ]
 }
